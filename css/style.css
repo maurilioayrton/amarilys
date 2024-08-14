@@ -1,0 +1,57 @@
+.banner img {
+    width: 1900px;
+    height: 600px;
+    display: block;
+}
+.menu{
+    font-size: 19px;
+}
+
+.boxmenu {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu horizontalmente */
+    width: 100%; /* Garante que a lista ocupe toda a largura */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.navbar-collapse {
+    justify-content: center; /* Centraliza os itens na barra de navegação */
+}
+
+.nav-item {
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: transform 1s; 
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.427);
+    display: flex;
+}
+
+/* Estilo para tablets: 2 cards por linha */
+@media (max-width: 1024px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Estilo para celulares: 1 card por linha */
+@media (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amarylis Turismo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Navbar fixa no topo -->
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top boxmenu" style="background-color: #f6c900;">
+            <img src="imagens/amarilys2.png" alt="Logo" style="height:70px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto menu">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#roteiros">Roteiros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#informacoes">Informações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#corporativo">Corporativo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quem-somos">Quem Somos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Slide Rotativo -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 56px;">
+        <ol class="carousel-indicators ">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner banner">
+            <div class="carousel-item active">
+                <img src="imagens/capadocia.jpg" class="d-block w-100" alt="Banner 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Visitando Istambul, Capadócia, Pamukkale e Izmir - Turquia</h5>
+                        <h5>A partir de USD 869.</h5>
+                        <button type="button" class="btn btn-warning">Clique e Veja</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/taj.jpg" class="d-block w-100" alt="Banner 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Visitando Istambul, Capadócia, Pamukkale e Izmir - Turquia</h5>
+                        <h5>A partir de USD 869.</h5>
+                        <button type="button" class="btn btn-warning">Clique e Veja</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/banner-fernando-de-noronha.webp" class="d-block w-100" alt="Banner 3">
+                <div class="textobanner carousel-caption d-none d-md-block">
+                    <h3>Visitando Istambul, Capadócia, Pamukkale e Izmir - Turquia</h5>
+                        <h5>A partir de USD 869.</h5>
+                        <button type="button" class="btn btn-warning">Clique e Veja</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/taj.jpeg" class="d-block w-100" alt="Banner 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Visitando Istambul, Capadócia, Pamukkale e Izmir - Turquia</h5>
+                        <h5>A partir de USD 869.</h5>
+                        <button type="button" class="btn btn-warning">Clique e Veja</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/jalapao.jpg" class="d-block w-100" alt="Banner 5">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Visitando Istambul, Capadócia, Pamukkale e Izmir - Turquia</h5>
+                        <h5>A partir de USD 869.</h5>
+                        <button type="button" class="btn btn-warning">Clique e Veja</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    </div>
+    <section class="py-5">
+        <div class="container">
+            <h1>Roteiros em Destaques</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/card-eua.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá Magnífico com New York</h5>
+                            <p class="card-text">Um roteiro espetacular pelas principais cidades do Canadá e Estados
+                                Unidos.</p>
+                            <p class="saibamais">preços a partir de:</p>
+                            <h4>$1.998</h4>
+                            <a href="#" class="btn btn-warning" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Descubra Agora</a>
+                        </div>
+
+                    </div>
+                    <!-- Button trigger modal -->
+                    <!-- Modal -->
+                    <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        coloque o texto aqui
+                                        <div class="row">
+                                            <form class="">
+                                                <div class="mb-3 col-12">
+                                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp">
+                                                    <div id="emailHelp" class="form-text">We'll never share your email with
+                                                        anyone else.</div>
+                                                </div>
+                                                <div class="mb-3 col-4">
+                                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                                </div>
+                                                <div class="mb-3 form-check col-4">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-warning"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/card-amazonia.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá Magnífico com New York</h5>
+                            <p class="card-text">Um roteiro espetacular pelas principais cidades do Canadá e Estados
+                                Unidos.</p>
+                            <p class="saibamais">preços a partir de:</p>
+                            <h4>$1.998</h4>
+                            <a href="#" class="btn btn-warning">Descubra Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/card-india-bandeira.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá Magnífico com New York</h5>
+                            <p class="card-text">Um roteiro espetacular pelas principais cidades do Canadá e Estados
+                                Unidos.</p>
+                            <p class="saibamais">preços a partir de:</p>
+                            <h4>$1.998</h4>
+                            <a href="#" class="btn btn-warning">Descubra Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/Chile-Torres-del-Paine.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá Magnífico com New York</h5>
+                            <p class="card-text">Um roteiro espetacular pelas principais cidades do Canadá e Estados
+                                Unidos.</p>
+                            <p class="saibamais">preços a partir de:</p>
+                            <h4>$1.998</h4>
+                            <a href="#" class="btn btn-warning">Descubra Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/fernando.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá Magnífico com New York</h5>
+                            <p class="card-text">Um roteiro espetacular pelas principais cidades do Canadá e Estados
+                                Unidos.</p>
+                            <p class="saibamais">preços a partir de:</p>
+                            <h4>$1.998</h4>
+                            <a href="#" class="btn btn-warning">Descubra Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/machu-picchu-1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Canadá Magnífico com New York</h5>
+                            <p class="card-text">Um roteiro espetacular pelas principais cidades do Canadá e Estados
+                                Unidos.</p>
+                            <p class="saibamais">preços a partir de:</p>
+                            <h4>$1.998</h4>
+                            <a href="#" class="btn btn-warning">Descubra Agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </section>
+    <div class="container mt-5">
+        <h2>Localização da Amarilys Turismo</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.634844182719!2d-46.51391902457911!3d-23.56201471503433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe8c9a7255df3830!2sAmarilys%20Turismo!5e0!3m2!1spt-BR!2sbr!4v1691502603601!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><br>
+</body>
+<footer class="footer">
+<div class="container">Amarilys Viagens e Turismo Tel: (11) 5082-3339 | Cel: (11) 95656-2286 marilda@amarilysturismo.com.br CNPJ: 10.851.291/0001-85
+</div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
